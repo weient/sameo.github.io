@@ -28,7 +28,7 @@
         padding: 10px;
     }
     .bal-container {
-        margin: auto auto;
+        margin: 10px 0;
     }
 }
 
@@ -45,7 +45,7 @@
         padding: 10px;
     }
     .bal-container {
-        margin: auto auto;
+        margin: 10px 0;
     }
 }
 
@@ -62,7 +62,7 @@
         padding: 10px;
     }
     .bal-container {
-        margin: auto auto;
+        margin: 10px 0;
     }
 }
 
@@ -79,7 +79,7 @@
         padding: 10px;
     }
     .bal-container {
-        margin: auto auto;
+        margin: 10px 0;
     }
 }
 
@@ -96,7 +96,7 @@
         padding: 10px;
     }
     .bal-container {
-        margin: auto auto;
+        margin: 0 10px;
     }
 }
 
@@ -113,13 +113,15 @@
         padding: 10px;
     }
     .bal-container {
-        margin: auto auto;
+        margin: 0 10px;
     }
 }
 
 
 /* Before After Container */
-
+.mainSection {
+    margin: 0 auto;
+}
 .bal-container {
     position: relative;
     width: 50%;
@@ -127,6 +129,7 @@
     cursor: grab;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .bal-after {
