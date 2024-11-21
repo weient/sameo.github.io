@@ -7,7 +7,6 @@
   <meta name="keywords" content="Amodal Segmentation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Segment Anything, Even Occluded</title>
-  <script src="js/script.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!--
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -23,9 +22,11 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
   -->
+
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
-
+  
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
@@ -34,7 +35,7 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
-
+  <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -264,6 +265,29 @@
         </div>
       </div>
     </div>
+    <div id="one" class="bal-container">
+        <div class="bal-after">
+            <img src="images/autumn.jpg">
+            <div class="bal-afterPosition afterLabel">
+                After
+            </div>
+        </div>
+
+        <div class="bal-before">
+            <div class="bal-before-inset">
+                <img src="images/spring.jpg">
+                <div class="bal-beforePosition beforeLabel">
+                    Before
+                </div>
+            </div>
+        </div>
+
+        <div class="bal-handle">
+            <span class=" handle-left-arrow"></span>
+            <span class="handle-right-arrow"></span>
+        </div>
+
+    </div>
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
@@ -330,5 +354,14 @@
   </div>
 </footer>
 
+
+<script src="js/script.js"></script>
+
+<script>
+    new BeforeAfter({
+        id: '#one'
+    });
+</script>
+  
 </body>
 </html>
