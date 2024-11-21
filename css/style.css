@@ -127,6 +127,7 @@
     cursor: grab;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
 }
 
 .bal-after {
