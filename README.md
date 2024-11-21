@@ -1,6 +1,6 @@
 # Nerfies
 
-This is the repository that contains source code for the [SAMEO website](https://github.com/weient/sameo.github.io).
+This is the repository that contains source code for the [SAMEO website](https://weient.github.io/sameo.github.io/).
 
 If you find Nerfies useful for your work please cite:
 ```
