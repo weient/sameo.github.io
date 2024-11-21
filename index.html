@@ -250,7 +250,79 @@
 -->
 
 <section class="section">
+  <div class="mainSection">
+      <div id="one" class="bal-container">
+          <div class="bal-after">
+              <img src="images/autumn.jpg">
+              <div class="bal-afterPosition afterLabel">
+                  After
+              </div>
+          </div>
+
+          <div class="bal-before">
+              <div class="bal-before-inset">
+                  <img src="images/spring.jpg">
+                  <div class="bal-beforePosition beforeLabel">
+                      Before
+                  </div>
+              </div>
+          </div>
+
+          <div class="bal-handle">
+              <span class=" handle-left-arrow"></span>
+              <span class="handle-right-arrow"></span>
+          </div>
+
+      </div>
+
+      <div id="two" class="bal-container">
+          <div class="bal-after">
+              <img src="images/after.jpg">
+              <div class="bal-afterPosition afterLabel">
+                  After
+              </div>
+          </div>
+          <div class="bal-before">
+              <div class="bal-before-inset">
+                  <img src="images/before.jpg">
+                  <div class="bal-beforePosition beforeLabel">
+                      Before
+                  </div>
+
+              </div>
+          </div>
+          <div class="bal-handle">
+              <span class="handle-left-arrow"></span>
+              <span class="handle-right-arrow"></span>
+
+          </div>
+      </div>
+
+      <div id="three" class="bal-container">
+          <div class="bal-after">
+              <img src="images/autumn.jpg">
+              <div class="bal-afterPosition afterLabel">
+                  After
+              </div>
+          </div>
+          <div class="bal-before">
+              <div class="bal-before-inset">
+                  <img src="images/spring.jpg">
+                  <div class="bal-beforePosition beforeLabel">
+                      Before
+                  </div>
+
+              </div>
+          </div>
+          <div class="bal-handle">
+              <span class="handle-left-arrow"></span>
+              <span class="handle-right-arrow"></span>
+
+          </div>
+      </div>
+  </div>
   <div class="container is-max-desktop">
+    
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -283,34 +355,6 @@
     <!--/ Paper video. -->
   </div>
 </section>
-
-<div class="mainSection">
-    <div id="one" class="bal-container">
-        <div class="bal-after">
-            <img src="images/autumn.jpg">
-            <div class="bal-afterPosition afterLabel">
-                After
-            </div>
-        </div>
-  
-        <div class="bal-before">
-            <div class="bal-before-inset">
-                <img src="images/spring.jpg">
-                <div class="bal-beforePosition beforeLabel">
-                    Before
-                </div>
-            </div>
-        </div>
-  
-        <div class="bal-handle">
-            <span class=" handle-left-arrow"></span>
-            <span class="handle-right-arrow"></span>
-        </div>
-  
-    </div>
-</div>
-
-
 
 <!--
 <section class="section" id="BibTeX">
@@ -363,6 +407,12 @@
 <script>
     new BeforeAfter({
         id: '#one'
+    });
+    new BeforeAfter({
+        id: '#two'
+    });
+    new BeforeAfter({
+        id: '#three'
     });
 </script>
   
